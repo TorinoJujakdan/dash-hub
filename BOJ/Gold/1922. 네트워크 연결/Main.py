@@ -1,6 +1,4 @@
 import sys
-sys.stdin = open("input.txt", "r")
-
 import heapq
 from heapq import heappop, heappush
 
