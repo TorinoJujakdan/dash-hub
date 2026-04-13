@@ -28,7 +28,7 @@ def prim(start):
 
 N = int(input())
 M = int(input())
-graph = [[] for _ in range(M)]
+graph = [[] for _ in range(N+1)]
 for _ in range(M):
     a, b, c = map(int, input().split())
     graph[a].append((c, b))
