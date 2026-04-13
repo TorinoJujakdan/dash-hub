@@ -39,4 +39,4 @@ for _ in range(M):
 start, end = map(int, input().split())
 result = dijkstra(start)
 
-print(result[-1])
+print(result[end])
