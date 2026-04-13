@@ -37,4 +37,3 @@ for _ in range(m):
         
     
 print(result)
-
