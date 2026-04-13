@@ -30,8 +30,8 @@ def dijkstra(start):
     
 N = int(input())
 M = int(input())
-INF = float(10e6)
-graph = [[] * (N+1) for _ in range(N+1)]
+INF = float(20e8)
+graph = [[] for _ in range(N+1)]
 for _ in range(M):
     s, e, w = map(int, input().split())
     graph[s].append((w, e))
